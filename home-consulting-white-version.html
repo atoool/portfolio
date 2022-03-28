@@ -6,14 +6,15 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Home consulting || Inbio - Personal Portfolio Bootstrap Template</title>
+    <title>Athul Mohan | Myself</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
     <!-- CSS 
     ============================================ -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/vendor/slick.css">
     <link rel="stylesheet" href="assets/css/vendor/slick-theme.css">
@@ -21,15 +22,18 @@
     <link rel="stylesheet" href="assets/css/plugins/feature.css">
     <!-- Style css -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .mySlides {display: none}
+    </style>
 </head>
 
-<body class="white-version home-sticky spybody" data-spy="scroll" data-target=".navbar-example2" data-offset="150">
+<body class="white-version home-sticky spybody hide-scrollbar" data-spy="scroll" data-target=".navbar-example2" data-offset="150">
 
     <!-- start Header area -->
     <div class="d-none d-xl-block header-style-2">
-        <header class="rn-header-area d-flex align-items-start flex-column left-header-style">
+        <header class="rn-header-area d-flex align-items-start flex-column left-header-style hide-scrollbar">
             <div class="logo-area">
-                <a href="index-2.html">
+                <a href="#">
                     <img src="assets/images/logo/logo-06.png" alt="personal-logo">
                 </a>
             </div>
@@ -38,17 +42,17 @@
                     <li class="nav-item"><a class="nav-link smoth-animation-two active" href="#home"><i
                                 data-feather="home"></i> Home</a></li>
                     <li class="nav-item"><a class="nav-link smoth-animation-two" href="#features"> <i
-                                data-feather="briefcase"></i>Features</a></li>
+                                data-feather="briefcase"></i>What I Do</a></li>
                     <li class="nav-item"><a class="nav-link smoth-animation-two" href="#portfolio"><i
                                 data-feather="layers"></i>Portfolio</a></li>
                     <li class="nav-item"><a class="nav-link smoth-animation-two" href="#resume"><i
                                 data-feather="users"></i>Resume</a></li>
                     <li class="nav-item"><a class="nav-link smoth-animation-two" href="#clients"><i
-                                data-feather="user"></i>Clients</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation-two" href="#pricing"><i
+                                data-feather="user"></i>Projects</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link smoth-animation-two" href="#pricing"><i
                                 data-feather="shopping-cart"></i>Pricing</a></li>
                     <li class="nav-item"><a class="nav-link smoth-animation-two" href="#blog"><i
-                                data-feather="image"></i>blog</a></li>
+                                data-feather="image"></i>blog</a></li> -->
                     <li class="nav-item"><a class="nav-link smoth-animation-two" href="#contacts"><i
                                 data-feather="message-circle"></i>Contact</a></li>
                 </ul>
@@ -57,17 +61,19 @@
                 <div class="social-share-style-1">
                     <span class="title">find with me</span>
                     <ul class="social-share d-flex liststyle">
-                        <li class="facebook"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook">
-                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        <li class="coffee"><a href="https://www.buymeacoffee.com/athulmohan" target="_blank" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-coffee">
+                                     <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+    <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+    <line x1="6" y1="1" x2="6" y2="4"></line>
+    <line x1="10" y1="1" x2="10" y2="4"></line>
+    <line x1="14" y1="1" x2="14" y2="4"></line>
                                 </svg></a>
                         </li>
-                        <li class="instagram"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
-                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        <li class="github"><a href="https://github.com/atoool" target="_blank" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                                 </svg></a>
                         </li>
-                        <li class="linkedin"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+                        <li class="linkedin"><a href="https://www.linkedin.com/in/athul-mohan-223571146/" target="_blank" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
                                     <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
                                     </path>
                                     <rect x="2" y="9" width="4" height="12"></rect>
@@ -86,8 +92,8 @@
         <div class="row align-items-center">
             <div class="col-6">
                 <div class="logo">
-                    <a href="index-2.html">
-                        <img src="assets/images/logo/logo-dark.png" alt="Logo">
+                    <a href="#">
+                        <img style="width: 40%;height: 40%;" src="assets/images/logo/logoAM.png" alt="Logo">
                     </a>
                 </div>
             </div>
@@ -107,41 +113,43 @@
         <div class="inner">
             <div class="menu-top">
                 <div class="menu-header">
-                    <a class="logo" href="index-2.html">
-                        <img src="assets/images/logo/logos-circle.png" alt="Personal Portfolio">
+                    <a class="logo" href="#">
+                        <img style="width:30%;height:30%;" src="assets/images/logo/logo-dark.png" alt="Personal Portfolio">
                     </a>
                     <div class="close-button">
                         <button class="close-menu-activation close"><i data-feather="x"></i></button>
                     </div>
                 </div>
-                <p class="discription">Inbio is a personal portfolio template. You can customize all.</p>
+                <!-- <p class="discription">Inbio is a personal portfolio template. You can customize all.</p> -->
             </div>
             <div class="content">
                 <ul class="primary-menu nav nav-pills">
                     <li class="nav-item"><a class="nav-link smoth-animation-two active" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation-two" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link smoth-animation-two" href="#features">What I Do</a></li>
                     <li class="nav-item"><a class="nav-link smoth-animation-two" href="#portfolio">Portfolio</a></li>
                     <li class="nav-item"><a class="nav-link smoth-animation-two" href="#resume">Resume</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation-two" href="#clients">Clients</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation-two" href="#pricing">Pricing</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation-two" href="#blog">blog</a></li>
+                    <li class="nav-item"><a class="nav-link smoth-animation-two" href="#clients">Projects</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link smoth-animation-two" href="#pricing">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link smoth-animation-two" href="#blog">blog</a></li> -->
                     <li class="nav-item"><a class="nav-link smoth-animation-two" href="#contacts">Contact</a></li>
                 </ul>
                 <!-- social sharea area -->
                 <div class="social-share-style-1 mt--40">
                     <span class="title">find with me</span>
                     <ul class="social-share d-flex liststyle">
-                        <li class="facebook"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook">
-                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                        <li class="coffee"><a href="https://www.buymeacoffee.com/athulmohan" target="_blank" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-coffee">
+                                     <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+    <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+    <line x1="6" y1="1" x2="6" y2="4"></line>
+    <line x1="10" y1="1" x2="10" y2="4"></line>
+    <line x1="14" y1="1" x2="14" y2="4"></line>
                                 </svg></a>
                         </li>
-                        <li class="instagram"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
-                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        <li class="github"><a href="https://github.com/atoool" target="_blank" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                                 </svg></a>
                         </li>
-                        <li class="linkedin"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+                        <li class="linkedin"><a href="https://www.linkedin.com/in/athul-mohan-223571146/" target="_blank" ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
                                     <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
                                     </path>
                                     <rect x="2" y="9" width="4" height="12"></rect>
@@ -166,17 +174,22 @@
                     <div class="col-lg-12">
                         <div class="banner-inner">
                             <div class="thumbnail gradient-border gradient-animation">
-                                <img id="border" class="gradient-border" src="assets/images/slider/banner-06.png" alt="">
+                                <img id="border" class="gradient-border" src="assets/images/slider/banner-06.jpg" alt="">
                             </div>
-                            <h1>Al-Amin Bali</h1>
+                            <h1>ATHUL MOHAN</h1>
                             <!-- type headline start-->
                             <span class="cd-headline clip is-full-width">
                                 <span>I am a</span>
                             <!-- ROTATING TEXT -->
                             <span class="cd-words-wrapper">
-                                    <b class="is-visible">Lawyer.</b>
-                                    <b class="is-hidden">Consulter.</b>
-                                    <b class="is-hidden">Developer.</b>
+                                <b class="is-visible">developer.</b>
+                                <b class="is-hidden">react native developer.</b>
+                                <b class="is-hidden">reactJs developer.</b>
+                                <b class="is-hidden">nodeJs developer.</b>
+                                <b class="is-hidden">electronJs/desktop developer.</b>
+                                <b class="is-hidden">python developer.</b>
+                                <b class="is-hidden">full-stack developer.</b>
+                                <b class="is-hidden">cross platform developer.</b>
                                 </span>
                             </span>
                             <!-- type headline end -->
@@ -208,30 +221,12 @@
                         <div class="rn-service">
                             <div class="inner">
                                 <div class="icon">
-                                    <i data-feather="menu"></i>
+                                    <i data-feather="smartphone"></i>
                                 </div>
                                 <div class="content">
-                                    <h4 class="title"><a href="#">Business Stratagy</a></h4>
+                                    <h4 class="title"><a href="#">Mobile app development</a></h4>
                                     <p class="description">I throw myself down among the tall grass by the stream as I
                                         lie close to the earth.</p>
-                                    <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a>
-                                </div>
-                            </div>
-                            <a class="over-link" href="#"></a>
-                        </div>
-                    </div>
-                    <!-- End SIngle Service -->
-                    <!-- Start Single Service -->
-                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
-                        <div class="rn-service">
-                            <div class="inner">
-                                <div class="icon">
-                                    <i data-feather="book-open"></i>
-                                </div>
-                                <div class="content">
-                                    <h4 class="title"><a href="#">App Development</a></h4>
-                                    <p class="description"> It uses a dictionary of over 200 Latin words, combined with
-                                        a handful of model sentence.</p>
                                     <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -247,7 +242,43 @@
                                     <i data-feather="tv"></i>
                                 </div>
                                 <div class="content">
-                                    <h4 class="title"><a href="#">App Development</a></h4>
+                                    <h4 class="title"><a href="#">TV app development</a></h4>
+                                    <p class="description">I throw myself down among the tall grass by the stream as I
+                                        lie close to the earth.</p>
+                                    <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <a class="over-link" href="#"></a>
+                        </div>
+                    </div>
+                    <!-- End SIngle Service -->
+                    <!-- Start Single Service -->
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-service">
+                            <div class="inner">
+                                <div class="icon">
+                                    <i data-feather="layout"></i>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title"><a href="#">Web Development</a></h4>
+                                    <p class="description"> It uses a dictionary of over 200 Latin words, combined with
+                                        a handful of model sentence.</p>
+                                    <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <a class="over-link" href="#"></a>
+                        </div>
+                    </div>
+                    <!-- End SIngle Service -->
+                    <!-- Start Single Service -->
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-service">
+                            <div class="inner">
+                                <div class="icon">
+                                    <i data-feather="cloud"></i>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title"><a href="#">Backend development</a></h4>
                                     <p class="description">I throw myself down among the tall grass by the stream as I
                                         lie close to the earth.</p>
                                     <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a>
@@ -258,6 +289,42 @@
                     </div>
                     <!-- End SIngle Service -->
 
+                    <!-- Start Single Service -->
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-service">
+                            <div class="inner">
+                                <div class="icon">
+                                    <i data-feather="monitor"></i>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title"><a href="#">Desktop development</a></h4>
+                                    <p class="description">I throw myself down among the tall grass by the stream as I
+                                        lie close to the earth.</p>
+                                    <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <a class="over-link" href="#"></a>
+                        </div>
+                    </div>
+                    <!-- End SIngle Service -->
+                    <!-- Start Single Service -->
+                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-service">
+                            <div class="inner">
+                                <div class="icon">
+                                    <i data-feather="box"></i>
+                                </div>
+                                <div class="content">
+                                    <h4 class="title"><a href="#">Game development</a></h4>
+                                    <p class="description">I throw myself down among the tall grass by the stream as I
+                                        lie close to the earth.</p>
+                                    <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a>
+                                </div>
+                            </div>
+                            <a class="over-link" href="#"></a>
+                        </div>
+                    </div>
+                    <!-- End SIngle Service -->
                 </div>
             </div>
         </div>
@@ -275,27 +342,27 @@
                     </div>
                 </div>
 
-                <div class="row row--25 mt--10 mt_md--10 mt_sm--10">
+                <div id="portfolio112" class="row--25 mt_md--10 mt_sm--10 hide-scrollbar" style="display: flex;flex-direction:row; width: 100%;overflow-x: scroll;padding-bottom: 40px;scroll-behavior: smooth;">
                     <!-- Start Single Portfolio -->
                     <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
                         <div class="rn-portfolio" data-toggle="modal" data-target="#exampleModalCenter">
                             <div class="inner">
                                 <div class="thumbnail">
                                     <a href="javascript:void(0)">
-                                        <img src="assets/images/portfolio/portfolio-01.jpg" alt="Personal Portfolio Images">
+                                        <img src="assets/images/portfolio/piano1.webp" alt="Personal Portfolio Images">
                                     </a>
                                 </div>
                                 <div class="content">
                                     <div class="category-info">
                                         <div class="category-list">
-                                            <a href="javascript:void(0)">Development</a>
+                                            <a href="javascript:void(0)">Mobile app</a>
                                         </div>
                                         <div class="meta">
                                             <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
                                                 600</span>
                                         </div>
                                     </div>
-                                    <h4 class="title"><a href="javascript:void(0)">The services provide for design <i
+                                    <h4 class="title"><a href="javascript:void(0)">Lifestyle app for  piano learning lessons <i
                                                 class="feather-arrow-up-right"></i></a></h4>
                                 </div>
                             </div>
@@ -309,21 +376,20 @@
                             <div class="inner">
                                 <div class="thumbnail">
                                     <a href="javascript:void(0)">
-                                        <img src="assets/images/portfolio/portfolio-02.jpg" alt="Personal Portfolio Images">
+                                        <img src="assets/images/portfolio/craft1.webp" alt="Personal Portfolio Images">
                                     </a>
                                 </div>
                                 <div class="content">
                                     <div class="category-info">
                                         <div class="category-list">
-                                            <a href="javascript:void(0)">Application</a>
+                                            <a href="javascript:void(0)">Mobile Application</a>
                                         </div>
                                         <div class="meta">
                                             <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
                                                 750</span>
                                         </div>
                                     </div>
-                                    <h4 class="title"><a href="javascript:void(0)">Mobile app landing design & app
-                                            maintain<i class="feather-arrow-up-right"></i></a></h4>
+                                    <h4 class="title"><a href="javascript:void(0)">Learning app for craft lessons<i class="feather-arrow-up-right"></i></a></h4>
                                 </div>
                             </div>
                         </div>
@@ -336,27 +402,86 @@
                             <div class="inner">
                                 <div class="thumbnail">
                                     <a href="javascript:void(0)">
-                                        <img src="assets/images/portfolio/portfolio-03.jpg" alt="Personal Portfolio Images">
+                                        <img src="assets/images/portfolio/med1.webp" alt="Personal Portfolio Images">
                                     </a>
                                 </div>
                                 <div class="content">
                                     <div class="category-info">
                                         <div class="category-list">
-                                            <a href="javascript:void(0)">Photoshop</a>
+                                            <a href="javascript:void(0)">Mobile Application</a>
                                         </div>
                                         <div class="meta">
                                             <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
                                                 630</span>
                                         </div>
                                     </div>
-                                    <h4 class="title"><a href="javascript:void(0)">Logo design creativity & Application
+                                    <h4 class="title"><a href="javascript:void(0)">A learning app for relax and meditating lessons
                                             <i class="feather-arrow-up-right"></i></a></h4>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- End Single Portfolio -->
+
+                    <!-- Start Single Portfolio -->
+                    <div data-aos="fade-up" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-portfolio" data-toggle="modal" data-target="#exampleModalCenter">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/images/portfolio/med1.webp" alt="Personal Portfolio Images">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category-info">
+                                        <div class="category-list">
+                                            <a href="javascript:void(0)">Mobile Application</a>
+                                        </div>
+                                        <div class="meta">
+                                            <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
+                                                630</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="title"><a href="javascript:void(0)">A learning app for relax and meditating lessons
+                                            <i class="feather-arrow-up-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Start Single Portfolio -->
+                    <div data-aos="fade-up" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
+                        <div class="rn-portfolio" data-toggle="modal" data-target="#exampleModalCenter">
+                            <div class="inner">
+                                <div class="thumbnail">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/images/portfolio/med1.webp" alt="Personal Portfolio Images">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <div class="category-info">
+                                        <div class="category-list">
+                                            <a href="javascript:void(0)">Mobile Application</a>
+                                        </div>
+                                        <div class="meta">
+                                            <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
+                                                630</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="title"><a href="javascript:void(0)">A learning app for relax and meditating lessons
+                                            <i class="feather-arrow-up-right"></i></a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                
+                    
+        <!-- Back to  top Start -->
+        <a style="color:#bb00fd;" onclick="scrollWin()">
+            <i data-feather="chevrons-right"></i>
+        </a>
+    <!-- Back to top end -->
             </div>
         </div>
         <!-- End portfolio Area -->
@@ -366,7 +491,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-title text-center">
-                            <span class="subtitle">7+ Years of Experience</span>
+                            <span class="subtitle" id="expYear">3+ Years of Experience</span>
                             <h2 class="title">My Resume</h2>
                         </div>
                     </div>
@@ -375,101 +500,30 @@
                     <div class="col-lg-12">
                         <ul class="rn-nav-list nav nav-tabs" id="myTabs" role="tablist">
                             <li class="nav-item">
-                                <a class="nav-link active" id="education-tab" data-toggle="tab" href="#education" role="tab" aria-controls="education" aria-selected="true">education</a>
+                                <a class="nav-link active" id="experience-tab" data-toggle="tab" href="#experience" role="tab" aria-controls="experience" aria-selected="true">experience</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="professional-tab" data-toggle="tab" href="#professional" role="tab" aria-controls="professional" aria-selected="false">professional
                                     Skills</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="experience-tab" data-toggle="tab" href="#experience" role="tab" aria-controls="experience" aria-selected="false">experience</a>
+                                <a class="nav-link" id="education-tab" data-toggle="tab" href="#education" role="tab" aria-controls="education" aria-selected="false">education</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="interview-tab" data-toggle="tab" href="#interview" role="tab" aria-controls="interview" aria-selected="false">interview</a>
+                                <a class="nav-link" id="interview-tab" data-toggle="tab" href="#interview" role="tab" aria-controls="interview" aria-selected="false">Know More</a>
                             </li>
                         </ul>
                         <!-- Start Tab Content Wrapper  -->
                         <div class="rn-nav-content tab-content" id="myTabContents">
+
                             <!-- Start Single Tab  -->
-                            <div class="tab-pane show active fade single-tab-area" id="education" role="tabpanel" aria-labelledby="education-tab">
+                            <div class="tab-pane show active fade" id="experience" role="tabpanel" aria-labelledby="experience-tab">
                                 <div class="personal-experience-inner mt--40">
                                     <div class="row">
-                                        <!-- Start Skill List Area  -->
-                                        <div class="col-lg-6 col-md-12 col-12">
-                                            <div class="content">
-                                                <span class="subtitle">2007 - 2010</span>
-                                                <h4 class="maintitle">Education Quality</h4>
-                                                <div class="experience-list">
-
-                                                    <!-- Start Single List  -->
-                                                    <div class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>Personal Portfolio April Fools</h4>
-                                                                    <span>University of DVI (1997 - 2001)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>4.30/5</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="description">The education should be very
-                                                                interactual. Ut tincidunt est ac dolor aliquam sodales.
-                                                                Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single List  -->
-
-                                                    <!-- Start Single List  -->
-                                                    <div class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4> Examples Of Personal Portfolio</h4>
-                                                                    <span>College of Studies (2000 - 2002)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>4.50/5</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="description">Maecenas finibus nec sem ut
-                                                                imperdiet. Ut tincidunt est ac dolor aliquam sodales.
-                                                                Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single List  -->
-
-                                                    <!-- Start Single List  -->
-                                                    <div class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>Tips For Personal Portfolio</h4>
-                                                                    <span>University of Studies (1997 - 2001)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>4.80/5</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="description"> If you are going to use a passage.
-                                                                Ut tincidunt est ac dolor aliquam sodales.
-                                                                Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single List  -->
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End Skill List Area  -->
-
                                         <!-- Start Skill List Area 2nd  -->
                                         <div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60">
                                             <div class="content">
-                                                <span class="subtitle">2007 - 2010</span>
+                                                <span class="subtitle">2017 - Present</span>
                                                 <h4 class="maintitle">Job Experience</h4>
                                                 <div class="experience-list">
 
@@ -478,17 +532,18 @@
                                                         <div class="inner">
                                                             <div class="heading">
                                                                 <div class="title">
-                                                                    <h4>Diploma in Web Development</h4>
-                                                                    <span>BSE In CSE (2004 - 2008)</span>
+                                                                    <h4>Mobile Engineer</h4>
+                                                                    <span>BuyMeACoffee</span>
                                                                 </div>
                                                                 <div class="date-of-time">
-                                                                    <span>4.70/5</span>
+                                                                    <span>2022 - Present</span>
                                                                 </div>
                                                             </div>
-                                                            <p class="description">Contrary to popular belief. Ut
-                                                                tincidunt est ac dolor aliquam sodales.
-                                                                Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
+                                                            <!-- <p class="description">
+                                                                Areas Focused on at the moment (React native)
+                                                                - develop 
+                                                                - implement 
+                                                                - maintaining the android and ios using react native stack at the moment.</p> -->
                                                         </div>
                                                     </div>
                                                     <!-- End Single List  -->
@@ -498,17 +553,17 @@
                                                         <div class="inner">
                                                             <div class="heading">
                                                                 <div class="title">
-                                                                    <h4>The Personal Portfolio Mystery</h4>
-                                                                    <span>Job at Rainbow-Themes (2008 - 2016)</span>
+                                                                    <h4>Software Developer</h4>
+                                                                    <span>Riafy Technologies Pvt.Ltd</span>
                                                                 </div>
                                                                 <div class="date-of-time">
-                                                                    <span>4.95/5</span>
+                                                                    <span>2019 - 2022</span>
                                                                 </div>
                                                             </div>
-                                                            <p class="description">Generate Lorem Ipsum which looks. Ut
+                                                            <!-- <p class="description">Generate Lorem Ipsum which looks. Ut
                                                                 tincidunt est ac dolor aliquam sodales.
                                                                 Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
+                                                                mauris hendrerit ante.</p> -->
                                                         </div>
                                                     </div>
                                                     <!-- End Single List  -->
@@ -518,18 +573,17 @@
                                                         <div class="inner">
                                                             <div class="heading">
                                                                 <div class="title">
-                                                                    <h4>Diploma in Computer Science</h4>
-                                                                    <span>Works at Plugin Development (2016 -
-                                                                2020)</span>
+                                                                    <h4>Web developer</h4>
+                                                                    <span>Freelancing</span>
                                                                 </div>
                                                                 <div class="date-of-time">
-                                                                    <span>5.00/5</span>
+                                                                    <span>2017 - 2019</span>
                                                                 </div>
                                                             </div>
-                                                            <p class="description">Maecenas finibus nec sem ut
+                                                            <!-- <p class="description">Maecenas finibus nec sem ut
                                                                 imperdiet. Ut tincidunt est ac dolor aliquam sodales.
                                                                 Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
+                                                                mauris hendrerit ante.</p> -->
                                                         </div>
                                                     </div>
                                                     <!-- End Single List  -->
@@ -548,66 +602,6 @@
                                 <div class="personal-experience-inner mt--40">
                                     <div class="row row--40">
 
-                                        <!-- Start Single Progressbar  -->
-                                        <div class="col-lg-6 col-md-6 col-12">
-                                            <div class="progress-wrapper">
-                                                <div class="content">
-                                                    <span class="subtitle">Features</span>
-                                                    <h4 class="maintitle">Design Skill</h4>
-                                                    <!-- Start Single Progress Charts -->
-                                                    <div class="progress-charts">
-                                                        <h6 class="heading heading-h6">PHOTOSHOT</h6>
-                                                        <div class="progress">
-                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 100%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                                            class="percent-label">100%</span></div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single Progress Charts -->
-
-                                                    <!-- Start Single Progress Charts -->
-                                                    <div class="progress-charts">
-                                                        <h6 class="heading heading-h6">FIGMA</h6>
-                                                        <div class="progress">
-                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay=".4s" role="progressbar" style="width: 95%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                                            class="percent-label">95%</span></div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single Progress Charts -->
-
-                                                    <!-- Start Single Progress Charts -->
-                                                    <div class="progress-charts">
-                                                        <h6 class="heading heading-h6">ADOBE XD</h6>
-                                                        <div class="progress">
-                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay=".5s" role="progressbar" style="width: 60%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                                            class="percent-label">60%</span></div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single Progress Charts -->
-
-                                                    <!-- Start Single Progress Charts -->
-                                                    <div class="progress-charts">
-                                                        <h6 class="heading heading-h6">ADOBE ILLUSTRATOR</h6>
-                                                        <div class="progress">
-                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay=".6s" role="progressbar" style="width: 70%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                                            class="percent-label">70%</span></div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single Progress Charts -->
-
-                                                    <!-- Start Single Progress Charts -->
-                                                    <div class="progress-charts">
-                                                        <h6 class="heading heading-h6">DESIGN</h6>
-                                                        <div class="progress">
-                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay=".7s" role="progressbar" style="width: 90%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                                            class="percent-label">90%</span></div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single Progress Charts -->
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End Single Progressbar  -->
 
                                         <!-- Start Single Progressbar  -->
                                         <div class="col-lg-6 col-md-6 col-12 mt_sm--60">
@@ -617,20 +611,24 @@
                                                     <h4 class="maintitle">Development Skill</h4>
                                                     <!-- Start Single Progress Charts -->
                                                     <div class="progress-charts">
-                                                        <h6 class="heading heading-h6">HTML</h6>
+                                                        <h6 class="heading heading-h6">React-native</h6>
                                                         <div class="progress">
-                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                                            class="percent-label">85%</span></div>
+                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 90%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                                <!-- <span
+                                                            class="percent-label">90%</span> -->
+                                                        </div>
                                                         </div>
                                                     </div>
                                                     <!-- End Single Progress Charts -->
 
                                                     <!-- Start Single Progress Charts -->
                                                     <div class="progress-charts">
-                                                        <h6 class="heading heading-h6">CSS</h6>
+                                                        <h6 class="heading heading-h6">ReactJS</h6>
                                                         <div class="progress">
-                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay=".4s" role="progressbar" style="width: 80%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                                            class="percent-label">80%</span></div>
+                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay=".4s" role="progressbar" style="width: 75%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                                <!-- <span
+                                                            class="percent-label">75%</span> -->
+                                                        </div>
                                                         </div>
                                                     </div>
                                                     <!-- End Single Progress Charts -->
@@ -639,32 +637,227 @@
                                                     <div class="progress-charts">
                                                         <h6 class="heading heading-h6">JAVASCRIPT</h6>
                                                         <div class="progress">
-                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay=".5s" role="progressbar" style="width: 90%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                                            class="percent-label">90%</span></div>
+                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay=".5s" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                                <!-- <span
+                                                            class="percent-label">85%</span> -->
+                                                        </div>
                                                         </div>
                                                     </div>
                                                     <!-- End Single Progress Charts -->
 
                                                     <!-- Start Single Progress Charts -->
                                                     <div class="progress-charts">
-                                                        <h6 class="heading heading-h6">SOFTWARE</h6>
+                                                        <h6 class="heading heading-h6">NodeJS</h6>
                                                         <div class="progress">
-                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay=".6s" role="progressbar" style="width: 75%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                                            class="percent-label">75%</span></div>
+                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay=".6s" role="progressbar" style="width: 60%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                                <!-- <span
+                                                            class="percent-label">60%</span> -->
+                                                        </div>
                                                         </div>
                                                     </div>
                                                     <!-- End Single Progress Charts -->
 
                                                     <!-- Start Single Progress Charts -->
                                                     <div class="progress-charts">
-                                                        <h6 class="heading heading-h6">PLUGIN</h6>
+                                                        <h6 class="heading heading-h6">Python</h6>
                                                         <div class="progress">
-                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay=".7s" role="progressbar" style="width: 70%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span
-                                                            class="percent-label">70%</span></div>
+                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay=".7s" role="progressbar" style="width: 50%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                                <!-- <span
+                                                            class="percent-label">50%</span> -->
+                                                        </div>
                                                         </div>
                                                     </div>
                                                     <!-- End Single Progress Charts -->
 
+                                                    <!-- Start Single Progress Charts -->
+                                                    <div class="progress-charts">
+                                                        <h6 class="heading heading-h6">ElectronJS</h6>
+                                                        <div class="progress">
+                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay=".7s" role="progressbar" style="width: 70%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                                <!-- <span
+                                                            class="percent-label">70%</span> -->
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Single Progress Charts -->
+                                                    <!-- Start Single Progress Charts -->
+                                                    <div class="progress-charts">
+                                                        <h6 class="heading heading-h6">Full-Stack</h6>
+                                                        <div class="progress">
+                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay=".7s" role="progressbar" style="width: 50%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                                <!-- <span
+                                                            class="percent-label">50%</span> -->
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Single Progress Charts -->
+                                                    <!-- Start Single Progress Charts -->
+                                                    <div class="progress-charts">
+                                                        <h6 class="heading heading-h6">AngularJS</h6>
+                                                        <div class="progress">
+                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay=".7s" role="progressbar" style="width: 30%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                                <!-- <span
+                                                            class="percent-label">30%</span> -->
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Single Progress Charts -->
+                                                    <!-- Start Single Progress Charts -->
+                                                    <div class="progress-charts">
+                                                        <h6 class="heading heading-h6">MERN-Stack</h6>
+                                                        <div class="progress">
+                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay=".7s" role="progressbar" style="width: 50%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                                <!-- <span
+                                                            class="percent-label">50%</span> -->
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Single Progress Charts -->
+                                                    <!-- Start Single Progress Charts -->
+                                                    <div class="progress-charts">
+                                                        <h6 class="heading heading-h6">UNITY</h6>
+                                                        <div class="progress">
+                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay=".7s" role="progressbar" style="width: 55%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                                <!-- <span
+                                                            class="percent-label">55%</span> -->
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Single Progress Charts -->
+                                                    <!-- Start Single Progress Charts -->
+                                                    <div class="progress-charts">
+                                                        <h6 class="heading heading-h6">PHP</h6>
+                                                        <div class="progress">
+                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay=".7s" role="progressbar" style="width: 50%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                                <!-- <span
+                                                            class="percent-label"></span> -->
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Single Progress Charts -->
+                                                    <!-- Start Single Progress Charts -->
+                                                    <div class="progress-charts">
+                                                        <h6 class="heading heading-h6">Flutter</h6>
+                                                        <div class="progress">
+                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay=".7s" role="progressbar" style="width: 30%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                                <!-- <span
+                                                            class="percent-label"></span> -->
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Single Progress Charts -->
+                                                    <!-- Start Single Progress Charts -->
+                                                    <div class="progress-charts">
+                                                        <h6 class="heading heading-h6">Blockchain</h6>
+                                                        <div class="progress">
+                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay=".7s" role="progressbar" style="width: 5%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                                <!-- <span
+                                                            class="percent-label"></span> -->
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Single Progress Charts -->
+                                                    
+                                                    <!-- Start Single Progress Charts -->
+                                                    <div class="progress-charts">
+                                                        <h6 class="heading heading-h6">HTML-CSS</h6>
+                                                        <div class="progress">
+                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay=".7s" role="progressbar" style="width: 80%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                                <!-- <span
+                                                            class="percent-label"></span> -->
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Single Progress Charts -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Single Progressbar  -->
+                                        <!-- Start Single Progressbar  -->
+                                        <div class="col-lg-6 col-md-6 col-12">
+                                            <div class="progress-wrapper">
+                                                <div class="content">
+                                                    <span class="subtitle">Features</span>
+                                                    <h4 class="maintitle">Other Skills</h4>
+                                                    <!-- Start Single Progress Charts -->
+                                                    <div class="progress-charts">
+                                                        <h6 class="heading heading-h6">Redux</h6>
+                                                        <div class="progress">
+                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 50%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                                <!-- <span
+                                                            class="percent-label">100%</span> -->
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Single Progress Charts -->
+
+                                                    <!-- Start Single Progress Charts -->
+                                                    <div class="progress-charts">
+                                                        <h6 class="heading heading-h6">MobX</h6>
+                                                        <div class="progress">
+                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 50%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                                <!-- <span
+                                                            class="percent-label">100%</span> -->
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Single Progress Charts -->
+
+                                                    <!-- Start Single Progress Charts -->
+                                                    <div class="progress-charts">
+                                                        <h6 class="heading heading-h6">AWS</h6>
+                                                        <div class="progress">
+                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 40%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                                <!-- <span
+                                                            class="percent-label">100%</span> -->
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Single Progress Charts -->
+                                                    <!-- Start Single Progress Charts -->
+                                                    <div class="progress-charts">
+                                                        <h6 class="heading heading-h6">Shell Script</h6>
+                                                        <div class="progress">
+                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 90%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                                <!-- <span
+                                                            class="percent-label">100%</span> -->
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Single Progress Charts -->
+                                                    <!-- Start Single Progress Charts -->
+                                                    <div class="progress-charts">
+                                                        <h6 class="heading heading-h6">Figma</h6>
+                                                        <div class="progress">
+                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 55%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                                <!-- <span
+                                                            class="percent-label">100%</span> -->
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Single Progress Charts -->
+                                                    <!-- Start Single Progress Charts -->
+                                                    <div class="progress-charts">
+                                                        <h6 class="heading heading-h6">Lunacy</h6>
+                                                        <div class="progress">
+                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 65%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                                <!-- <span
+                                                            class="percent-label">100%</span> -->
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Single Progress Charts -->
+                                                    <!-- Start Single Progress Charts -->
+                                                    <div class="progress-charts">
+                                                        <h6 class="heading heading-h6">Sketch</h6>
+                                                        <div class="progress">
+                                                            <div class="progress-bar wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay=".3s" role="progressbar" style="width: 60%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                                                <!-- <span
+                                                            class="percent-label">100%</span> -->
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End Single Progress Charts -->
                                                 </div>
                                             </div>
                                         </div>
@@ -674,15 +867,14 @@
                                 </div>
                             </div>
                             <!-- End Single Tab  -->
-
                             <!-- Start Single Tab  -->
-                            <div class="tab-pane fade" id="experience" role="tabpanel" aria-labelledby="experience-tab">
+                            <div class="tab-pane fade single-tab-area" id="education" role="tabpanel" aria-labelledby="education-tab">
                                 <div class="personal-experience-inner mt--40">
                                     <div class="row">
                                         <!-- Start Skill List Area  -->
                                         <div class="col-lg-6 col-md-12 col-12">
                                             <div class="content">
-                                                <span class="subtitle">2007 - 2010</span>
+                                                <span class="subtitle">2010 - 2018</span>
                                                 <h4 class="maintitle">Education Quality</h4>
                                                 <div class="experience-list">
 
@@ -691,17 +883,17 @@
                                                         <div class="inner">
                                                             <div class="heading">
                                                                 <div class="title">
-                                                                    <h4>Personal Portfolio April Fools</h4>
-                                                                    <span>University of DVI (1997 - 2001)</span>
+                                                                    <h4>B.Tech</h4>
+                                                                    <span>Computer Science and Engineering</span>
                                                                 </div>
                                                                 <div class="date-of-time">
-                                                                    <span>4.30/5</span>
+                                                                    <span>2014 - 2018</span>
                                                                 </div>
                                                             </div>
-                                                            <p class="description">The education should be very
+                                                            <!-- <p class="description">The education should be very
                                                                 interactual. Ut tincidunt est ac dolor aliquam sodales.
                                                                 Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
+                                                                mauris hendrerit ante.</p> -->
                                                         </div>
                                                     </div>
                                                     <!-- End Single List  -->
@@ -711,17 +903,17 @@
                                                         <div class="inner">
                                                             <div class="heading">
                                                                 <div class="title">
-                                                                    <h4> Examples Of Personal Portfolio</h4>
-                                                                    <span>College of Studies (2000 - 2002)</span>
+                                                                    <h4>Higher Secondary</h4>
+                                                                    <span>Biology Science</span>
                                                                 </div>
                                                                 <div class="date-of-time">
-                                                                    <span>4.50/5</span>
+                                                                    <span>2011 - 2013</span>
                                                                 </div>
                                                             </div>
-                                                            <p class="description">Maecenas finibus nec sem ut
+                                                            <!-- <p class="description">Maecenas finibus nec sem ut
                                                                 imperdiet. Ut tincidunt est ac dolor aliquam sodales.
                                                                 Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
+                                                                mauris hendrerit ante.</p> -->
                                                         </div>
                                                     </div>
                                                     <!-- End Single List  -->
@@ -731,90 +923,17 @@
                                                         <div class="inner">
                                                             <div class="heading">
                                                                 <div class="title">
-                                                                    <h4>Tips For Personal Portfolio</h4>
-                                                                    <span>University of Studies (1997 - 2001)</span>
+                                                                    <h4>High School</h4>
+                                                                    <span>SSLC</span>
                                                                 </div>
                                                                 <div class="date-of-time">
-                                                                    <span>4.80/5</span>
+                                                                    <span>2010-2011</span>
                                                                 </div>
                                                             </div>
-                                                            <p class="description"> If you are going to use a passage.
+                                                            <!-- <p class="description"> If you are going to use a passage.
                                                                 Ut tincidunt est ac dolor aliquam sodales.
                                                                 Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single List  -->
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End Skill List Area  -->
-
-                                        <!-- Start Skill List Area 2nd  -->
-                                        <div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60">
-                                            <div class="content">
-                                                <span class="subtitle">2007 - 2010</span>
-                                                <h4 class="maintitle">Job Experience</h4>
-                                                <div class="experience-list">
-
-                                                    <!-- Start Single List  -->
-                                                    <div class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>Diploma in Web Development</h4>
-                                                                    <span>BSE In CSE (2004 - 2008)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>4.70/5</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="description">Contrary to popular belief. Ut
-                                                                tincidunt est ac dolor aliquam sodales.
-                                                                Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single List  -->
-
-                                                    <!-- Start Single List  -->
-                                                    <div class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>The Personal Portfolio Mystery</h4>
-                                                                    <span>Job at Rainbow-Themes (2008 - 2016)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>4.95/5</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="description">Generate Lorem Ipsum which looks. Ut
-                                                                tincidunt est ac dolor aliquam sodales.
-                                                                Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single List  -->
-
-                                                    <!-- Start Single List  -->
-                                                    <div class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>Diploma in Computer Science</h4>
-                                                                    <span>Works at Plugin Development (2016 -
-                                                                2020)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>5.00/5</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="description">Maecenas finibus nec sem ut
-                                                                imperdiet. Ut tincidunt est ac dolor aliquam sodales.
-                                                                Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
+                                                                mauris hendrerit ante.</p> -->
                                                         </div>
                                                     </div>
                                                     <!-- End Single List  -->
@@ -835,8 +954,8 @@
                                         <!-- Start Skill List Area  -->
                                         <div class="col-lg-6 col-md-12 col-12">
                                             <div class="content">
-                                                <span class="subtitle">2007 - 2010</span>
-                                                <h4 class="maintitle">Company Experience</h4>
+                                                <span class="subtitle">2010 - Present</span>
+                                                <h4 class="maintitle">Career time-line</h4>
                                                 <div class="experience-list">
 
                                                     <!-- Start Single List  -->
@@ -844,17 +963,18 @@
                                                         <div class="inner">
                                                             <div class="heading">
                                                                 <div class="title">
-                                                                    <h4>Personal Portfolio April Fools</h4>
-                                                                    <span>University of DVI (1997 - 2001)</span>
+                                                                    <h4>Basic web pages</h4>
+                                                                    <span>Started self learning</span>
+                                                                    <span>html, css</span>
                                                                 </div>
                                                                 <div class="date-of-time">
-                                                                    <span>4.30/5</span>
+                                                                    <span>2010 - 2011</span>
                                                                 </div>
                                                             </div>
-                                                            <p class="description">The education should be very
+                                                            <!-- <p class="description">The education should be very
                                                                 interactual. Ut tincidunt est ac dolor aliquam sodales.
                                                                 Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
+                                                                mauris hendrerit ante.</p> -->
                                                         </div>
                                                     </div>
                                                     <!-- End Single List  -->
@@ -864,17 +984,18 @@
                                                         <div class="inner">
                                                             <div class="heading">
                                                                 <div class="title">
-                                                                    <h4> Examples Of Personal Portfolio</h4>
-                                                                    <span>College of Studies (2000 - 2002)</span>
+                                                                    <h4>Web development</h4>
+                                                                    <span>College projects</span>
+                                                                    <span>html, css, javascript, php.</span>
                                                                 </div>
                                                                 <div class="date-of-time">
-                                                                    <span>4.50/5</span>
+                                                                    <span>2016 - 2017</span>
                                                                 </div>
                                                             </div>
-                                                            <p class="description">Maecenas finibus nec sem ut
+                                                            <!-- <p class="description">Maecenas finibus nec sem ut
                                                                 imperdiet. Ut tincidunt est ac dolor aliquam sodales.
                                                                 Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
+                                                                mauris hendrerit ante.</p> -->
                                                         </div>
                                                     </div>
                                                     <!-- End Single List  -->
@@ -884,49 +1005,18 @@
                                                         <div class="inner">
                                                             <div class="heading">
                                                                 <div class="title">
-                                                                    <h4>Tips For Personal Portfolio</h4>
-                                                                    <span>University of Studies (1997 - 2001)</span>
+                                                                    <h4>Web development</h4>
+                                                                    <span>Freelancing</span>
+                                                                    <span>html, css, javascript, php, aws</span>
                                                                 </div>
                                                                 <div class="date-of-time">
-                                                                    <span>4.80/5</span>
+                                                                    <span>2017 - 2018</span>
                                                                 </div>
                                                             </div>
-                                                            <p class="description"> If you are going to use a passage.
+                                                            <!-- <p class="description"> If you are going to use a passage.
                                                                 Ut tincidunt est ac dolor aliquam sodales.
                                                                 Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single List  -->
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End Skill List Area  -->
-
-                                        <!-- Start Skill List Area 2nd  -->
-                                        <div class="col-lg-6 col-md-12 col-12 mt_md--60 mt_sm--60">
-                                            <div class="content">
-                                                <span class="subtitle">2007 - 2010</span>
-                                                <h4 class="maintitle">Job Experience</h4>
-                                                <div class="experience-list">
-
-                                                    <!-- Start Single List  -->
-                                                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>Diploma in Web Development</h4>
-                                                                    <span>BSE In CSE (2004 - 2008)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>4.70/5</span>
-                                                                </div>
-                                                            </div>
-                                                            <p class="description">Contrary to popular belief. Ut
-                                                                tincidunt est ac dolor aliquam sodales.
-                                                                Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
+                                                                mauris hendrerit ante.</p> -->
                                                         </div>
                                                     </div>
                                                     <!-- End Single List  -->
@@ -936,42 +1026,46 @@
                                                         <div class="inner">
                                                             <div class="heading">
                                                                 <div class="title">
-                                                                    <h4>The Personal Portfolio Mystery</h4>
-                                                                    <span>Job at Rainbow-Themes (2008 - 2016)</span>
+                                                                    <h4>StartUp</h4>
+                                                                    <span>Co-founder and Director</span> 
+                                                                    <span>Bentura technologies</span>
+                                                                    <span>Travel App (GOIVGO)</span>
+                                                                    <span>html, css, javascript, php, aws</span>
                                                                 </div>
                                                                 <div class="date-of-time">
-                                                                    <span>4.95/5</span>
+                                                                    <span>2017 - 2018</span>
                                                                 </div>
                                                             </div>
-                                                            <p class="description">Generate Lorem Ipsum which looks. Ut
-                                                                tincidunt est ac dolor aliquam sodales.
+                                                            <!-- <p class="description"> If you are going to use a passage.
+                                                                Ut tincidunt est ac dolor aliquam sodales.
                                                                 Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
+                                                                mauris hendrerit ante.</p> -->
                                                         </div>
                                                     </div>
                                                     <!-- End Single List  -->
-
+                                                    
                                                     <!-- Start Single List  -->
-                                                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="900" data-aos-once="true" class="resume-single-list">
+                                                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="700" data-aos-once="true" class="resume-single-list">
                                                         <div class="inner">
                                                             <div class="heading">
                                                                 <div class="title">
-                                                                    <h4>Diploma in Computer Science</h4>
-                                                                    <span>Works at Plugin Development (2016 -
-                                                                2020)</span>
+                                                                    <h4>Full-Stack certification</h4>
+                                                                    <span>ICT Academy</span>
+                                                                    <span>html, css, javascript, python,</span>
+                                                                    <span>angularJS, mongoDB, expressJS,</span>
+                                                                    <span>nodeJS, heroku</span>
                                                                 </div>
                                                                 <div class="date-of-time">
-                                                                    <span>5.00/5</span>
+                                                                    <span>2017 - 2018</span>
                                                                 </div>
                                                             </div>
-                                                            <p class="description">Maecenas finibus nec sem ut
-                                                                imperdiet. Ut tincidunt est ac dolor aliquam sodales.
+                                                            <!-- <p class="description"> If you are going to use a passage.
+                                                                Ut tincidunt est ac dolor aliquam sodales.
                                                                 Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                                                mauris hendrerit ante.</p>
+                                                                mauris hendrerit ante.</p> -->
                                                         </div>
                                                     </div>
                                                     <!-- End Single List  -->
-
                                                 </div>
                                             </div>
                                         </div>
@@ -993,8 +1087,8 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-title">
-                            <span class="subtitle">Popular Clients</span>
-                            <h2 class="title">Awesome Clients</h2>
+                            <span class="subtitle">With Stacks/Languages</span>
+                            <h2 class="title">What Have I Done So Far?</h2>
                         </div>
                     </div>
                 </div>
@@ -1006,33 +1100,37 @@
                                 <ul class="nav tab-navigation-button flex-column nav-pills me-3" id="v-pills-tab" role="tablist">
 
                                     <li class="nav-item">
-                                        <a class="nav-link" id="v-pills-home-tab" data-toggle="tab" href="#v-pills-Javascript" role="tab" aria-controls="javascript" aria-selected="true">JavaScript</a>
+                                        <a class="nav-link active" id="v-pills-mob-apps-tab" data-toggle="tab" href="#v-pills-mob-apps" role="tab" aria-controls="javascript" aria-selected="true">Mob Apps</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="v-pills-web-apps-tab" data-toggle="tab" href="#v-pills-web-apps" role="tab" aria-controls="design" aria-selected="true">Web Apps</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="v-pills-backend-tab" data-toggle="tab" href="#v-pills-backend" role="tab" aria-controls="wordpress" aria-selected="true">Backend</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="v-pills-tv-apps-tab" data-toggle="tab" href="#v-pills-tv-apps" role="tab" aria-controls="react" aria-selected="true">TV Apps</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="v-pills-desktop-apps-tab" data-toggle="tab" href="#v-pills-desktop-apps" role="tab" aria-controls="laravel" aria-selected="true">Desktop Apps</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="v-pills-games-tab" data-toggle="tab" href="#v-pills-games" role="tab" aria-controls="python" aria-selected="true">Game</a>
                                     </li>
 
 
                                     <li class="nav-item">
-                                        <a class="nav-link active" id="v-pills-profile-tab" data-toggle="tab" href="#v-pills-Design" role="tab" aria-controls="design" aria-selected="true">Product Design</a>
+                                        <a class="nav-link" id="v-pills-hosting-tab" data-toggle="tab" href="#v-pills-hosting" role="tab" aria-controls="python" aria-selected="true">Hosting</a>
                                     </li>
-
-
+                                    
                                     <li class="nav-item">
-                                        <a class="nav-link" id="v-pills-wordpress-tab" data-toggle="tab" href="#v-pills-Wordpress" role="tab" aria-controls="wordpress" aria-selected="true">Wordpress</a>
+                                        <a class="nav-link" id="v-pills-more-tab" data-toggle="tab" href="#v-pills-more" role="tab" aria-controls="python" aria-selected="true">More</a>
                                     </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="v-pills-settings-tabs" data-toggle="tab" href="#v-pills-settings" role="tab" aria-controls="react" aria-selected="true">HTML to React</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="v-pills-laravel-tabs" data-toggle="tab" href="#v-pills-laravel" role="tab" aria-controls="laravel" aria-selected="true">React
-                                            To Laravel</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link" id="v-pills-python-tabs" data-toggle="tab" href="#v-pills-python" role="tab" aria-controls="python" aria-selected="true">Python</a>
-                                    </li>
-
-
                                 </ul>
                             </div>
                         </div>
@@ -1043,7 +1141,169 @@
                             <div class="d-flex align-items-start">
                                 <div class="tab-content" id="v-pills-tabContent">
 
-                                    <div class="tab-pane fade" id="v-pills-Javascript" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                    <div class="tab-pane fade show active" id="v-pills-mob-apps" role="tabpanel" aria-labelledby="v-pills-mob-apps-tab">
+                                        <div class="client-card">
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="assets/images/client/png/brand-01.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Piano Lessons</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="assets/images/client/png/brand-02.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Smiths Marth</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="assets/images/client/png/brand-03.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Add Dev</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="assets/images/client/png/brand-04.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Jone Due</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="assets/images/client/png/brand-01.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">John Due</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="assets/images/client/png/brand-05.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Adon Smith</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="assets/images/client/png/brand-01.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Smitha Mila</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="assets/images/client/png/brand-02.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Sultana Mila</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="assets/images/client/png/brand-01.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Jannat</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="assets/images/client/png/brand-05.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Mila Dus</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="assets/images/client/png/brand-01.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                            <!-- Start Single Brand  -->
+                                            <div class="main-content">
+                                                <div class="inner text-center">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="assets/images/client/png/brand-03.png" alt="Client-image"></a>
+                                                    </div>
+                                                    <div class="seperator"></div>
+                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Single Brand  -->
+
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="v-pills-web-apps" role="tabpanel" aria-labelledby="v-pills-web-apps-tab">
                                         <div class="client-card">
 
                                             <!-- Start Single Brand  -->
@@ -1205,7 +1465,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="tab-pane fade show active" id="v-pills-Design" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                    <div class="tab-pane fade" id="v-pills-backend" role="tabpanel" aria-labelledby="v-pills-backend-tab">
                                         <div class="client-card">
 
                                             <!-- Start Single Brand  -->
@@ -1367,7 +1627,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="tab-pane fade" id="v-pills-Wordpress" role="tabpanel" aria-labelledby="v-pills-wordpress-tab">
+                                    <div class="tab-pane fade" id="v-pills-tv-apps" role="tabpanel" aria-labelledby="v-pills-tv-apps-tab">
                                         <div class="client-card">
 
                                             <!-- Start Single Brand  -->
@@ -1529,7 +1789,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tabs">
+                                    <div class="tab-pane fade" id="v-pills-desktop-apps" role="tabpanel" aria-labelledby="v-pills-desktop-apps-tab">
                                         <div class="client-card">
 
                                             <!-- Start Single Brand  -->
@@ -1691,328 +1951,16 @@
                                         </div>
                                     </div>
 
-                                    <div class="tab-pane fade" id="v-pills-laravel" role="tabpanel" aria-labelledby="v-pills-laravel-tabs">
-                                        <div class="client-card">
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="assets/images/client/png/brand-01.png" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">John Due</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="assets/images/client/png/brand-02.png" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Smiths Marth</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="assets/images/client/png/brand-03.png" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Add Dev</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="assets/images/client/png/brand-04.png" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Jone Due</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="assets/images/client/png/brand-01.png" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">John Due</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="assets/images/client/png/brand-05.png" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Adon Smith</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="assets/images/client/png/brand-01.png" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Smitha Mila</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="assets/images/client/png/brand-02.png" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Sultana Mila</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="assets/images/client/png/brand-01.png" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Jannat</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="assets/images/client/png/brand-05.png" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Mila Dus</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="assets/images/client/png/brand-01.png" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="assets/images/client/png/brand-03.png" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                        </div>
+                                    <div class="tab-pane fade" id="v-pills-games" role="tabpanel" aria-labelledby="v-pills-games-tab">
+                                       
                                     </div>
 
-                                    <div class="tab-pane fade" id="v-pills-python" role="tabpanel" aria-labelledby="v-pills-python-tabs">
-                                        <div class="client-card">
+                                    <div class="tab-pane fade" id="v-pills-hosting" role="tabpanel" aria-labelledby="v-pills-games-tab">
+                                       
+                                    </div>
 
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="assets/images/client/png/brand-01.png" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">John Due</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="assets/images/client/png/brand-02.png" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Smiths Marth</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="assets/images/client/png/brand-03.png" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Add Dev</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="assets/images/client/png/brand-04.png" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Jone Due</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="assets/images/client/png/brand-01.png" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">John Due</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="assets/images/client/png/brand-05.png" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Adon Smith</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="assets/images/client/png/brand-01.png" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Smitha Mila</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="assets/images/client/png/brand-02.png" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Sultana Mila</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="assets/images/client/png/brand-01.png" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Jannat</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="assets/images/client/png/brand-05.png" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Mila Dus</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="assets/images/client/png/brand-01.png" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                            <!-- Start Single Brand  -->
-                                            <div class="main-content">
-                                                <div class="inner text-center">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="assets/images/client/png/brand-03.png" alt="Client-image"></a>
-                                                    </div>
-                                                    <div class="seperator"></div>
-                                                    <div class="client-name"><span><a href="#">Marth Smiths</a></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Single Brand  -->
-
-                                        </div>
+                                    <div class="tab-pane fade" id="v-pills-more" role="tabpanel" aria-labelledby="v-pills-games-tab">
+                                       
                                     </div>
 
                                 </div>
@@ -2024,416 +1972,6 @@
         </div>
         <!-- End client section -->
 
-        <!-- Pricing Area -->
-        <div class="rn-pricing-area rn-section-gap section-separator" id="pricing">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-xl-5 mb_md--40 mb_sm--40 small-margin-pricing">
-                        <div class="d-block d-lg-flex text-center d-lg-left section-flex flex-wrap align-content-start h-100">
-                            <div class="position-sticky sticky-top rbt-sticky-top-adjust">
-                                <div class="section-title text-left">
-                                    <span class="subtitle text-center text-lg-left">Pricing</span>
-                                    <h2 class="title text-center text-lg-left">My Pricing</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-8 col-xl-7">
-                        <!-- Pricing Area -->
-                        <div class="navigation-wrapper">
-                            <ul class="nav " id="myTab" role="tablist">
-                                <li class="nav-item ">
-                                    <a class="nav-style" id="test-tab" data-toggle="tab" href="#test" role="tab" aria-controls="test" aria-selected="false">Static</a>
-                                </li>
-
-                                <li class="nav-item  recommended">
-                                    <a class="nav-style active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="true">Standard</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-style" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Premium</a>
-                                </li>
-                            </ul>
-                            <div class="tab-content" id="myTabContent">
-
-                                <div class="tab-pane fade " id="test" role="tabpanel" aria-labelledby="test-tab">
-                                    <!-- Pricing Start -->
-                                    <div class="rn-pricing">
-                                        <div class="pricing-header">
-                                            <div class="header-left">
-                                                <h2 class="title">Make Your Single Page</h2>
-                                                <span>Elementor</span>
-                                            </div>
-                                            <div class="header-right">
-                                                <span>$30.00</span>
-                                            </div>
-                                        </div>
-                                        <div class="pricing-body">
-                                            <p class="description">
-                                                All the Lorem Ipsum generators on the Internet tend to repeat predefined
-                                                chunks as necessary
-                                            </p>
-                                            <div class="check-wrapper">
-                                                <div class="left-area">
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>1 Page with Elementor</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>Design Customization</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>Responsive Design</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>Content Upload</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>Design Customization</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>2 Plugins/Extensions</p>
-                                                    </div>
-                                                </div>
-                                                <div class="right-area">
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>multipage Elementor</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>Design Figma</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>MAintaine Design</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>Content Upload</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>Design With XD</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>8 Plugins/Extensions</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="pricing-footer">
-                                            <a href="#" class="rn-btn d-block">
-                                                <span>ORDER NOW</span>
-                                                <i data-feather="arrow-right"></i>
-                                            </a>
-                                            <div class="time-line">
-                                                <div class="single-cmt d-flex">
-                                                    <i data-feather="clock"></i>
-                                                    <span>2 Days Delivery</span>
-                                                </div>
-                                                <div class="single-cmt d-flex">
-                                                    <i data-feather="activity"></i>
-                                                    <span>Unlimited Revission</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End -->
-                                </div>
-
-                                <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                    <!-- Pricing Start -->
-                                    <div class="rn-pricing">
-                                        <div class="pricing-header">
-                                            <div class="header-left">
-                                                <h2 class="title">Design Make this Page</h2>
-                                                <span>Elementor</span>
-                                            </div>
-                                            <div class="header-right">
-                                                <span>$50.00</span>
-                                            </div>
-                                        </div>
-                                        <div class="pricing-body">
-                                            <p class="description">
-                                                Making this the first true generator on the Internet. It uses a
-                                                dictionary & plugin Development.
-                                            </p>
-                                            <div class="check-wrapper">
-                                                <div class="left-area">
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>1 Page with Elementor</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>Design Customization</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>Responsive Design</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>Content Upload</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>Design Customization</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>2 Plugins/Extensions</p>
-                                                    </div>
-                                                </div>
-                                                <div class="right-area">
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>multipage Elementor</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>Design Figma</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>MAintaine Design</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>Content Upload</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>Design With XD</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>8 Plugins/Extensions</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="pricing-footer">
-                                            <a href="#" class="rn-btn d-block">
-                                                <span>ORDER NOW</span>
-                                                <i data-feather="arrow-right"></i>
-                                            </a>
-                                            <div class="time-line d-flex">
-                                                <div class="single-cmt d-flex">
-                                                    <i data-feather="clock"></i>
-                                                    <span>2 Days Delivery</span>
-                                                </div>
-                                                <div class="single-cmt d-flex">
-                                                    <i data-feather="activity"></i>
-                                                    <span>Unlimited Revission</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End -->
-                                </div>
-
-                                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                                    <!-- Pricing Start -->
-                                    <div class="rn-pricing">
-                                        <div class="pricing-header">
-                                            <div class="header-left">
-                                                <h2 class="title">Customize Your Single Page</h2>
-                                                <span>Elementor</span>
-                                            </div>
-                                            <div class="header-right">
-                                                <span>$90.00</span>
-                                            </div>
-                                        </div>
-                                        <div class="pricing-body">
-                                            <p class="description">
-                                                I will install your desire theme and made like Theme demo and customize
-                                                your single page( homepage)
-                                            </p>
-                                            <div class="check-wrapper">
-                                                <div class="left-area">
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>1 Page with Elementor</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>Design Customization</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>Responsive Design</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>Content Upload</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>Design Customization</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>2 Plugins/Extensions</p>
-                                                    </div>
-                                                </div>
-                                                <div class="right-area">
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>multipage Elementor</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>Design Figma</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>MAintaine Design</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>Content Upload</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>Design With XD</p>
-                                                    </div>
-                                                    <div class="check d-flex">
-                                                        <i data-feather="check"></i>
-                                                        <p>8 Plugins/Extensions</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="pricing-footer">
-                                            <a href="#" class="rn-btn d-block">
-                                                <span>ORDER NOW</span>
-                                                <i data-feather="arrow-right"></i>
-                                            </a>
-                                            <div class="time-line d-flex">
-                                                <div class="single-cmt d-flex">
-                                                    <i data-feather="clock"></i>
-                                                    <span>2 Days Delivery</span>
-                                                </div>
-                                                <div class="single-cmt d-flex">
-                                                    <i data-feather="activity"></i>
-                                                    <span>Unlimited Revission</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End -->
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- pricing area -->
-        <!-- Start News Area -->
-        <div class="rn-blog-area rn-section-gap section-separator" id="blog">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="section-title text-center">
-                            <span class="subtitle">Visit my blog and keep your feedback</span>
-                            <h2 class="title">My Blog</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row row--25 mt--30 mt_md--10 mt_sm--10">
-
-                    <!-- Start Single blog -->
-                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" data-aos-once="true" class="col-lg-6 col-xl-4 mt--30 col-md-6 col-sm-12 col-12 mt--30">
-                        <div class="rn-blog" data-toggle="modal" data-target="#exampleModalCenters">
-                            <div class="inner">
-                                <div class="thumbnail">
-                                    <a href="javascript:void(0)">
-                                        <img src="assets/images/blog/blog-01.jpg" alt="Personal Portfolio Images">
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <div class="category-info">
-                                        <div class="category-list">
-                                            <a href="javascript:void(0)">Canada</a>
-                                        </div>
-                                        <div class="meta">
-                                            <span><i class="feather-clock"></i> 2 min read</span>
-                                        </div>
-                                    </div>
-                                    <h4 class="title"><a href="javascript:void(0)">T-shirt design is the part of design
-                                            <i class="feather-arrow-up-right"></i></a></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single blog -->
-
-                    <!-- Start Single blog -->
-                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="600" data-aos-once="true" class="col-lg-6 col-xl-4 mt--30 col-md-6 col-sm-12 col-12 mt--30">
-                        <div class="rn-blog" data-toggle="modal" data-target="#exampleModalCenters">
-                            <div class="inner">
-                                <div class="thumbnail">
-                                    <a href="javascript:void(0)">
-                                        <img src="assets/images/blog/blog-02.jpg" alt="Personal Portfolio Images">
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <div class="category-info">
-                                        <div class="category-list">
-                                            <a href="javascript:void(0)">Development</a>
-                                        </div>
-                                        <div class="meta">
-                                            <span><i class="feather-clock"></i> 2 hour read</span>
-                                        </div>
-                                    </div>
-                                    <h4 class="title"><a href="javascript:void(0)">The services provide for design <i
-                                        class="feather-arrow-up-right"></i></a></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single blog -->
-
-                    <!-- Start Single blog -->
-                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="800" data-aos-once="true" class="col-lg-6 col-xl-4 mt--30 col-md-6 col-sm-12 col-12 mt--30">
-                        <div class="rn-blog" data-toggle="modal" data-target="#exampleModalCenters">
-                            <div class="inner">
-                                <div class="thumbnail">
-                                    <a href="javascript:void(0)">
-                                        <img src="assets/images/blog/blog-03.jpg" alt="Personal Portfolio Images">
-                                    </a>
-                                </div>
-                                <div class="content">
-                                    <div class="category-info">
-                                        <div class="category-list">
-                                            <a href="javascript:void(0)">Application</a>
-                                        </div>
-                                        <div class="meta">
-                                            <span><i class="feather-clock"></i> 5 min read</span>
-                                        </div>
-                                    </div>
-                                    <h4 class="title"><a href="javascript:void(0)">Mobile app landing design & app
-                                            maintain<i class="feather-arrow-up-right"></i></a></h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single blog -->
-
-                </div>
-            </div>
-        </div>
-        <!-- ENd Mews Area -->
         <!-- Start Contact section -->
         <div class="rn-contact-area rn-section-gap section-separator" id="contacts">
             <div class="container">
@@ -2452,21 +1990,24 @@
                                 <img src="assets/images/contact/contact1.png" alt="contact-img">
                             </div>
                             <div class="title-area">
-                                <h4 class="title">Nevine Acotanza</h4>
-                                <span>Chief Operating Officer</span>
+                                <h4 class="title">Athul Mohan</h4>
+                                <span>Mobile Engineer</span>
+                                <div class="description">
+                               <span class="mail"><a href="https://buymeacoffee.com" target="_blank">Buy Me A Coffee</a></span>
+                                </div>
                             </div>
                             <div class="description">
-                                <p>I am available for freelance work. Connect with me via and call in to my account.
+                                <p>Connect with me via linkedin or email.
                                 </p>
-                                <span class="phone">Phone: <a href="tel:01941043264">+01234567890</a></span>
-                                <span class="mail">Email: <a href="mailto:admin@example.com">admin@example.com</a></span>
+                                <!-- <span class="phone">Phone: <a href="tel:01941043264">+01234567890</a></span> -->
+                                <span class="mail">Email: <a href="mailto:admin@example.com">athulchelad@gmail.com</a></span>
                             </div>
                             <div class="social-area">
                                 <div class="name">FIND WITH ME</div>
                                 <div class="social-icone">
-                                    <a href="#"><i data-feather="facebook"></i></a>
-                                    <a href="#"><i data-feather="linkedin"></i></a>
-                                    <a href="#"><i data-feather="instagram"></i></a>
+                                    <a href="https://www.buymeacoffee.com/athulmohan" target="_blank" ><i data-feather="coffee"></i></a>
+                                    <a href="https://www.linkedin.com/in/athul-mohan-223571146/" target="_blank" ><i data-feather="linkedin"></i></a>
+                                    <a href="https://github.com/atoool" target="_blank" ><i data-feather="github"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -2527,11 +2068,11 @@
         </div>
         <!-- End Contuct section -->
         <!-- Start Right Demo  -->
-        <div class="rn-right-demo">
+        <!-- <div class="rn-right-demo">
             <button class="demo-button">
                 <span class="text">Demos</span>
             </button>
-        </div>
+        </div> -->
         <!-- End Right Demo  -->
 
         <!-- Start Modal Area  -->
@@ -3211,11 +2752,11 @@
                     <div class="col-lg-12">
                         <div class="footer-area text-center">
                             <div class="logo">
-                                <a href="index-2.html">
-                                    <img src="assets/images/logo/logo-vertical-dark.png" alt="logo">
+                                <a href="#">
+                                    <img src="assets/images/logo/logo-dark.png" alt="logo">
                                 </a>
                             </div>
-                            <p class="description mt--30">© 2021. All rights reserved by <a target="_blank" href="https://themeforest.net/user/rainbow-themes/portfolio">Rainbow-Themes.</a></p>
+                            <p class="description mt--30">© 2022. All rights reserved <a target="_blank" href="https://themeforest.net/user/rainbow-themes/portfolio"></a></p>
                         </div>
                     </div>
                 </div>
@@ -3236,9 +2777,18 @@
                         <div class="row align-items-center">
 
                             <div class="col-lg-6">
+                            
                                 <div class="portfolio-popup-thumbnail">
-                                    <div class="image">
-                                        <img class="w-100" src="assets/images/portfolio/portfolio-04.jpg" alt="slide">
+                                    <div class="image" style="width: 70%;">
+                                        <div class="w3-content w3-display-container">
+                                            <img class="mySlides" src="assets/images/portfolio/piano1.webp" style="width:100%">
+                                            <img class="mySlides" src="assets/images/portfolio/piano2.webp" style="width:100%">
+                                            <img class="mySlides" src="assets/images/portfolio/piano3.webp" style="width:100%">
+                                            <img class="mySlides" src="assets/images/portfolio/piano4.webp" style="width:100%">
+                                          
+                                            <button style="width: auto;" class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                                            <button style="width: auto;" class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                                          </div>
                                     </div>
                                 </div>
                             </div>
@@ -3529,6 +3079,34 @@
 
         );
     </script>
+    
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+function scrollWin() {
+    const d=document.getElementById('portfolio112')
+    d.scrollLeft+=300
+}
+const dt = new Date().getFullYear()-2019;
+expYear=dt+'+ Years of Experience';
+document.getElementById('expYear').innerText=expYear;
+    </script>
+    <script src="./assets/js/projects.js"></script>
 </body>
 
 
