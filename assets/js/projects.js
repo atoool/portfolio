@@ -1,4 +1,3 @@
-console.log("sds");
 const projects = [
   {
     id: "v-pills-mob-apps",
@@ -78,7 +77,7 @@ const projects = [
     list: [
       "AWS - s3, ec2, amplify",
       "Firebase",
-      "Heroic",
+      "Heroku",
       "Github",
       "Netifly",
       "Tried free hosting sites",
@@ -105,7 +104,7 @@ const projects = [
     ],
   },
 ];
-console.log("somdosmdsodmosm");
+
 for (let elem of projects) {
   const apps = document.getElementById(elem?.id);
   let htmlComp = '<div class="client-card">';
