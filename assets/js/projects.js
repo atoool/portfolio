@@ -207,9 +207,22 @@ const projects = [
     id: "v-pills-games",
     name: "Game",
     list: [
-      { name: "Laser defender", img: null },
-      { name: "3D runner game", img: null },
-      { name: "Basic tutorial apps in unity", img: null },
+      {
+        name: "Laser defender",
+        img: [
+          "galaxyfighter1.jpeg",
+          "galaxyfighter2.jpeg",
+          "galaxyfighter3.jpeg",
+        ],
+      },
+      {
+        name: "3D runner game",
+        img: ["piraterunner1.jpeg", "piraterunner2.jpeg", "piraterunner3.jpeg"],
+      },
+      {
+        name: "Basic tutorial apps in unity",
+        img: ["unitytutorial1.jpeg", "unitytutorial2.jpeg"],
+      },
     ],
   },
   {
