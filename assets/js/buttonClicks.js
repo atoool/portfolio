@@ -90,7 +90,7 @@ projects.map((elem, i) => {
                                           baseURL +
                                           (itm?.img
                                             ? itm?.img[0]
-                                            : "portfolio-03.jpg")
+                                            : "blank.webp")
                                         } alt="Personal Portfolio Images">
                                     </a>
                                 </div>
