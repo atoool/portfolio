@@ -117,3 +117,21 @@ portfolio.innerHTML = portfolioComp;
 //     <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
 //         600</span>
 // </div>
+
+function onSubmit() {
+  const name = document.getElementById("contact-name").value;
+  const phone = document.getElementById("contact-phone").value;
+  const email = document.getElementById("contact-email").value;
+  const subject = document.getElementById("subject").value;
+  const message =
+    "From: " +
+    name +
+    "\nPhone: " +
+    phone +
+    "\nEmail :" +
+    email +
+    "\n\n" +
+    document.getElementById("contact-message").value;
+  console.warn("s");
+  window.location.href = `mailto:scrapycoco.sam@gmail.com?subject=${subject}&body=${message}`;
+}
