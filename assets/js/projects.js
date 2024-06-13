@@ -66,6 +66,23 @@ const projects = [
           "fasting-rstream6.webp",
         ],
       },
+      { name: "Nesto: Pick and pack app", img: null },
+      { name: "Nesto: Special worker app", img: null },
+      { name: "BuyMeaCoffee",
+        img: [
+          "bmc1.webp",
+          "bmc2.webp",
+          "bmc3.webp",
+        ]
+      },
+      { name: "Voicenotes:AI",
+        img: [
+          "vn2.webp",
+          "vn1.webp",
+          "vn3.webp",
+          "vn4.webp",
+        ]
+      },
       {
         name: "Learn Piano: Beginner Tutorial",
         img: [
@@ -164,8 +181,6 @@ const projects = [
           "meditate4.webp",
         ],
       },
-      { name: "Pick and pack app", img: null },
-      { name: "Special worker app", img: null },
       {
         name: "AR indoor navigation",
         img: ["ar1.webp", "ar2.webp", "ar3.webp"],
