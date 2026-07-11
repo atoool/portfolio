@@ -7,7 +7,7 @@ const projects = [
       {
         name: "VCare app car wash",
         img: [
-          "vcare/wash1.webp",
+          "vcare/34.webp",
           "vcare/1.webp",
           "vcare/2.webp",
           "vcare/3.webp",
@@ -68,7 +68,7 @@ const projects = [
       },
       { name: "Nesto: Pick and pack app", img: null },
       { name: "Nesto: Special worker app", img: null },
-      { name: "BuyMeaCoffee",
+      { name: "Buy Me a Coffee",
         img: [
           "bmc1.webp",
           "bmc2.webp",
@@ -224,7 +224,7 @@ const projects = [
       },
       {
         name: "App listing console",
-        img: ["store1.webp", "store2.webp", "store3.webp", "store4.webp"],
+        img: ["store1.webp", "store2.webp", "store3.webp"],
       },
       {
         name: "Pharma app",
@@ -232,7 +232,7 @@ const projects = [
           "pharma1.webp",
           "pharma2.webp",
           "pharma3.webp",
-          "pharma4.webp",
+          "pharma5.webp",
           "pharma4.webp",
         ],
       },
@@ -258,7 +258,7 @@ const projects = [
     name: "Backend",
     list: [
       {
-        name: "Web scrapping with node Js/python",
+        name: "Web scraping with Node.js/Python",
         img: ["store1.webp", "store2.webp"],
       },
       { name: "Translator nodeJs", img: null },
@@ -266,7 +266,7 @@ const projects = [
   },
   {
     id: "v-pills-tv-apps",
-    name: "Tv App",
+    name: "TV App",
     list: [
       { name: "Learn piano", img: null },
       { name: "Learn craft", img: null },
@@ -319,12 +319,12 @@ const projects = [
       { name: "AWS - s3, ec2, amplify", img: null },
       { name: "Firebase", img: null },
       { name: "Heroku", img: null },
-      { name: "Github", img: null },
-      { name: "Netifly", img: null },
+      { name: "GitHub", img: null },
+      { name: "Netlify", img: null },
       { name: "Tried free hosting sites", img: null },
       { name: "Wordpress", img: null },
       { name: "AppCenter by Microsoft ", img: null },
-      { name: "Godaddy - Domain purchases and redirecting", img: null },
+      { name: "GoDaddy - domain purchases and redirecting", img: null },
     ],
   },
   {
@@ -354,8 +354,11 @@ const projects = [
   },
 ];
 
+window.PORTFOLIO_PROJECTS = projects;
+
 for (let elem of projects) {
   const apps = document.getElementById(elem?.id);
+  if (!apps) continue;
   let htmlComp = '<div class="client-card">';
   elem?.list?.map(
     (app) =>
